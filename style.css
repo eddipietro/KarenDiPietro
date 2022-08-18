@@ -42,10 +42,15 @@ nav a:hover,
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+	
 }
 .hamburger:before {
 	content: "\2630";
 	font-size: 2em;
+	
+}
+.hamburger, ul {
+	visibility: visible;
 }
 
 .inner {
@@ -279,3 +284,25 @@ header.menu-fixed {
 .fa-envelope {
 	background-color: #404040;
 }
+
+
+
+@media (max-width: 480px) {
+
+.barra-redes {
+	top: 40%;
+	opacity: 0.9;
+
+}
+/*PROBLEMAS CON ESTA MEDIA QUERIES MENU DESPLEGABLE
+.hamburger {
+	display: none;
+}
+nav ul li::after {
+	display: inline;
+}
+*/
+}
+
+
+
